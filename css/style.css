@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+.wraper{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Asap",sans-serif;
+    padding-top: 120px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+
+}
+span{
+    color: #2EC06C;
+    font-weight:bold;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Karla",sans-serif;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 40px;
+}
+input{
+    margin-bottom: 20px;
+}
+input,textarea {
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #BABABA;
+    font-family: "Asap", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    outline: 0;
+    color: #666666;
+    
+}
+input:focus,textarea:focus{
+    border-color: #2EC06C;
+
+}
+
+::placeholder{ 
+    font-style: italic;
+    color: #666666;
+}
+.message {
+    display: flex;
+    height: 160px;
+}
+textarea{
+    resize: none;
+}
+.message textarea{
+    flex-grow: 1;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+button {
+    background: #2EC06C;
+    border:0;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0 12px;
+    cursor: pointer;
+
+}
+button:hover{
+    background: #2EC06C;
+}
+.social_links a {
+    display: block;
+    border-radius: 5px;
+    border-style: solid;
+    height: 140px;
+    border-width: 1px;
+    margin-bottom: 23px;
+    transition: all .3s;
+}
+
+.social_links a.faesbook{
+    border-color: #3B5998;
+    background: #fff url("../img/facebook\ .png") center center no-repeat;
+}
+.social_links a.faesbook:hover{
+    background-color: #3B5998;
+    background-image: url("../img/facebook.white.png")
+}
+.social_links a.twitter{
+    background: #fff url("../img/twitter.png") center center no-repeat;
+    border-color: #00ACED;
+}
+.social_links a.twitter:hover{
+    background-color:#00ACED;
+    background-image: url("../img/twitter.white.png")
+
+
+}
+.social_links a.instagram{
+    background: #fff url("../img/instagram\ .png") center center no-repeat;
+    border-color:  #517FA4;
+}
+.social_links a.instagram:hover{
+    background-color:#517FA4;
+    background-image: url("../img/instagram.white.png")
+
+}
+.social_links a.dribble{
+    border-color: #FF0084;
+    background: #fff url("../img/dribble\ \(1\).png") center center no-repeat;
+    
+}
+.social_links a.dribble:hover {
+    background-color: #FF0084;
+    background-image: url("../img/dribble.white.png")
+}
